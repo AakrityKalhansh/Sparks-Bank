@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: #000;
+  --secondary-btn: tranparent;
+  --btn-border: 1px solid rgb(20, 150, 236);
+  --white: #fff;
+  --linkBlue: #0d6efd;
+  --centerAlign: center;
+}
+body {
+  background-color: #17cff0;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Prata", serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+/* NAVBAR */
+
+nav {
+  padding: 30px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+
+nav ul li {
+  padding-left: 100px;
+  list-style-type: none;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 900;
+}
+
+nav form button {
+  margin: 0 0 0 10px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+/* BOTTONS */
+
+.primaryBtn,
+.primaryBtn a {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.secondaryBtn {
+  background-color: transparent;
+  border: var(--btn-border);
+}
+
+.secondaryBtn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* MAIN-SECTION */
+
+.heading h1 {
+  background-color: #17cff0;
+
+  margin: none;
+  padding-left: 20px;
+  /* box-sizing: border-box; */
+  /* text-align: center; */
+}
+
+.heading .content {
+  margin: none;
+  padding-left: 70px;
+  /* box-sizing: border-box; */
+  background-color: #17cff0;
+  margin-top: 10%;
+  /* text-decoration-color: var(--white); */
+  /* margin-left: 150%; */
+  /* margin-right: 5%; */
+  text-align: var(--centerAlign);
+  line-height: 34px;
+  font-weight: 100;
+}
+
+.img-head {
+  max-width: 100%;
+  margin-top: 50px;
+  margin-left: 20%;
+  filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.5));
+}
+
+/* ACCOUNT PAGE */
+
+tr a:hover {
+  color: var(--black);
+}
+
+table {
+  text-align: var(--centerAlign);
+}
+
+.data,
+.transferForm {
+  cursor: pointer;
+  text-align: var(--centerAlign);
+}
+
+.img-amount {
+  width: 100%;
+}
+.img-amt-div {
+  margin-top: 20px;
+}
+
+.breadcrumb-item a {
+  color: var(--linkBlue);
+}
+
+.footer {
+  color: var(--black);
+}
+
+.footer a {
+  color: #fff;
+}
+@media only screen and (max-width: 300px) {
+  .heading .content {
+    margin: 40px 10px 30px 10px;
+    text-align: var(--centerAlign);
+  }
+
+  .heading .content h1 {
+    text-align: var(--centerAlign);
+  }
+
+  .img-div {
+    margin-bottom: 10px;
+  }
+  .img-head {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 0%;
+  }
+  /* ACCOUNT PAGE */
+
+  table {
+    background-color: white;
+    text-align: var(--centerAlign);
+  }
+
+  .data,
+  .transferForm {
+    cursor: pointer;
+    text-align: var(--centerAlign);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* .heading .content {
+    margin: 40px 0 30px 0; 
+    text-align: var(--centerAlign);
+  }
+
+  .heading .content h1 {
+    text-align: var(--centerAlign);
+  }  */
+
+  .img-div {
+    margin-bottom: 10px;
+  }
+  .img-head {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 15%;
+  }
+  /* ACCOUNT PAGE */
+
+  table {
+    background-color: white;
+    text-align: var(--centerAlign);
+  }
+
+  .data,
+  .transferForm {
+    cursor: pointer;
+    text-align: var(--centerAlign);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* .heading .content {
+    margin: 40px 0 30px 0;
+    text-align: var(--centerAlign);
+  }
+
+  .heading .content h1 {
+    text-align: var(--centerAlign);
+  } */
+
+  .img-div {
+    margin-bottom: 10px;
+  }
+  .img-head {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 15%;
+  }
+  /* ACCOUNT PAGE */
+
+  table {
+    text-align: var(--centerAlign);
+  }
+
+  .data,
+  .transferForm {
+    cursor: pointer;
+    text-align: var(--centerAlign);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .heading .content {
+    margin-top: unset;
+    margin-left: 15px;
+    text-align: var(--centerAlign);
+  }
+
+  .heading .content h1 {
+    text-align: var(--centerAlign);
+  }
+
+  .img-div {
+    margin-bottom: 10px;
+  }
+  .img-head {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 15%;
+  }
+  /* ACCOUNT PAGE */
+
+  table {
+    background-color: white;
+    text-align: var(--centerAlign);
+  }
+
+  .data,
+  .transferForm {
+    cursor: pointer;
+    text-align: var(--centerAlign);
+  }
+}
